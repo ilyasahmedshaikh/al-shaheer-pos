@@ -17,5 +17,13 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'icons',          component: IconsComponent },
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
-    { path: 'upgrade',        component: UpgradeComponent }
+    { path: 'upgrade',        component: UpgradeComponent },
+    {
+        path: 'pos',
+        loadChildren: () => import('../../pages/pos/pos.module').then(m => m.PosModule)
+    },
+    {
+        path: 'products',
+        loadChildren: () => import('../../pages/products/products.module').then(m => m.ProductsModule)
+    }
 ];
