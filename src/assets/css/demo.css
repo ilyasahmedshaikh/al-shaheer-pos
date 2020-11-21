@@ -208,3 +208,21 @@
 .table-responsive {
   overflow: auto !important;
 }
+
+/* native scroll style  */
+
+::-webkit-scrollbar {
+  width: 7px;
+  /* height: 440px; */
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  background: #bdbdbd;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #eee;
+  -webkit-border-radius: 10px;
+  border-left: 1px #999 #888;
+}
