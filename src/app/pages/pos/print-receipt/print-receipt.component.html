@@ -1,0 +1,154 @@
+<div class="w-100">
+    <div class="receipt d-block m-auto">
+        
+        <a class="btn btn-success btn-round mb-4 w-100 print-b" (click)="print()">Print Receipt</a>
+        
+        <div class="card border" id="receipt">
+            <div class="head text-center">
+                <h3 class="mb-2 pt-3"><strong>Al Shaheer Mini Mart</strong></h3>
+                <p class="mb-4">Shop 55, Decent Garden, Block 7 Gulistan-e-Johar, Karachi, 75200, Pakistan</p>
+                <p class="mb-1">GST# 00-00-0000-000-00</p>
+                <p class="mb-1">NTN# 0000000-0</p>
+                <p>Contact# +923082601070</p>
+                <h4 class="border-top border-bottom">Invoice Receipt</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <p>Invoice No#</p>
+                    </div>
+                    <div class="col-8">
+                        <p>Order 12</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p>Operator Name</p>
+                    </div>
+                    <div class="col-8">
+                        <p>Hamid</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p>Invoice Date</p>
+                    </div>
+                    <div class="col-8">
+                        <p>{{today}}</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p>Client Name</p>
+                    </div>
+                    <div class="col-8">
+                        <p>Walking Customer</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p>Counter</p>
+                    </div>
+                    <div class="col-8">
+                        <p>Main Entrance Counter</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p>Delivery By</p>
+                    </div>
+                    <div class="col-8">
+                        <p>-</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p>Delivery Contact</p>
+                    </div>
+                    <div class="col-8">
+                        <p>-</p>
+                    </div>
+                </div>
+
+                <div class="items-list mt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table w-auto m-auto">
+                                <thead class="text-primary">
+                                    <th>#</th>
+                                    <th>Item</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Sunsilk Shampoo</td>
+                                        <td>200</td>
+                                        <td>1</td>
+                                        <td>200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Surf Excel 1kg</td>
+                                        <td>500</td>
+                                        <td>1</td>
+                                        <td>500</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row border-top py-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6"><p class="mb-0">Total Items:</p></div>
+                                <div class="col-6"><p class="mb-0 text-right">04</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><p  class="mb-0">Sub Total:</p></div>
+                                <div class="col-6"><p class="mb-0 text-right">700</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><p class="mb-0">Total Tax:</p></div>
+                                <div class="col-6"><p class="mb-0 text-right">0</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><p class="mb-0">Discount:</p></div>
+                                <div class="col-6"><p class="mb-0 text-right">0</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-bottom border-top py-3">
+                        <div class="col-6">
+                            <h5 class="mb-0 text-left"><strong>Total Due:</strong></h5>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="mb-0 text-right"><strong>780/-</strong></h5>
+                        </div>
+                    </div>
+                    <div class="row border-bottom">
+                        <div class="col-6 border-right">
+                            <div class="pt-3">
+                                <h6 class="mb-0">Cash Paid</h6>
+                                <h5><strong>1000</strong></h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="pt-3">
+                                <h6 class="mb-0">Cash Back</h6>
+                                <h5><strong>200</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-12">
+                            <h6 class="text-center">Terms And Conditions</h6>
+                            <ul class="pl-4">
+                                <li>Please check or balance amount and completeness of your purchased items before leaving the counter.</li>
+                                <li>The Mart will not be responsible after the purchase is completed.</li>
+                                <li>Please note that the mart follows <strong>No Return</strong> / <strong>No Exchange</strong> Policy</li>
+                                <li>All the prices are advice of applicable Taxes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

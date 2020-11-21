@@ -1,0 +1,24 @@
+p {
+    margin-bottom: 0;
+}
+
+.receipt {
+    width: 400px;
+    max-width: 400px;
+}
+
+.col-6 {
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+.row {
+    width: 400px !important;
+    max-width: 400px !important;
+}
+
+@media print {
+    .print-b  {
+        display: none;
+    }
+}

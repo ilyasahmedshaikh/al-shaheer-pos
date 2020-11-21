@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { PosComponent } from './pos.component';
 import { BillingComponent } from './billing/billing.component';
+import { PrintReceiptComponent } from './print-receipt/print-receipt.component';
 
 const routes: Routes = [
   { 
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       { path: '', component: BillingComponent },
       { path: 'billing', component: BillingComponent },
+      { path: 'print-receipt', component: PrintReceiptComponent },
     ]
   }
 ];
